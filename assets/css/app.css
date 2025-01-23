@@ -1,0 +1,15 @@
+@import url(./include/reset.css);
+@import url(./include/navbar.css);
+@import url(./include/text.css);
+@import url(./include/section.css);
+@import url(./include/color.css);
+@import url(./include/background.css);
+@import url(./include/html.css);
+@import url(./include/footer.css);
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    color: #2d5013;
+    font-weight: 500;
+  }
+

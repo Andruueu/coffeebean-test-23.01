@@ -1,0 +1,36 @@
+.footer {
+  padding: 20px 5%;
+  background-color: darkslategray;
+  font-family: "Roboto", sans-serif;
+}
+.p-copyright {
+  font-size: 12px;
+}
+
+.p {
+  font-size: 16px;
+}
+
+.h4-footer {
+  font-size: 30px;
+}
+
+.h5-footer {
+  font-size: 20px;
+}
+
+.footer-menu-items {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.main-footer {
+  flex: 1;
+}
+
+.body-footer {
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+  margin: 0;
+}

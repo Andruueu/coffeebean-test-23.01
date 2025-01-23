@@ -1,0 +1,51 @@
+/* Navbar */
+
+.navbar-wraper {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #AFB686;
+  padding: 15px 50px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgba(88, 88, 88, 0.1);
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-menu-items {
+  border: 1px rgba(231, 229, 229, 0.555);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(34, 58, 58);
+}
+
+.navbar-menu-items:hover {
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+}
+
+.logo-coffee {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #5f4e32;
+}
+
+.logo-bean {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(34, 58, 58);
+}
+
+.logo{
+  background-color: #AFB686;
+  border: none;
+}

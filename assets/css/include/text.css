@@ -1,0 +1,16 @@
+/* Text */
+
+.text-center {
+  text-align: center;
+}
+
+.text-center-title {
+  text-align: center;
+  padding: 150px;
+}
+
+.info-contact {
+  font-family:"Roboto", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
