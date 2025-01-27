@@ -7,3 +7,12 @@
 .background-accent {
   background: #3d5013;
 }
+
+.bg-img-hero {
+  background-image:url(/assets/image/herobanner.avif);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding: 350px;
+}

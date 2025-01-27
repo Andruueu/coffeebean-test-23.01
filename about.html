@@ -3,63 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Another CoffeeBean</title>
+    <title>About Us | Another CoffeeBean</title>
     <link rel="stylesheet" href="./assets/css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=contact_support"
+    />
   </head>
   <body>
-    <div class="navbar-wraper"></div>
-    <nav class="navbar">
-      <div>
-        <a href="./index.html"
-          ><span class="logo-coffee">COFFEE</span
-          ><span class="logo-bean">Bean</span>
-        </a>
-      </div>
-      <ul class="navbar-menu">
-        <li class="navbar-menu-items">
-          <a href="./services.html">Services</a>
-        </li>
-        <li class="navbar-menu-items">
-          <a href="./about.html">About Us</a>
-        </li>
-        <li class="navbar-menu-items">
-          <a href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="navbar-wraper">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="./index.html"
+            ><span class="logo-coffee">COFFEE</span
+            ><span class="logo-bean">Bean</span>
+          </a>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-menu-items">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="navbar-menu-items">
+            <a href="./about.html">About Us</a>
+          </li>
+          <li class="navbar-menu-items">
+            <a href="/contact_bs.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <header>
-      <div>
-        <h1 class="text-center-title">
-          <span class="title">About us</span><br />
-          <span class="logo-bean">with</span>
-          <span class="logo-coffee">FRESH</span>
-          <span class="logo-bean">beans</span>
+      <div class="bg-img-hero">
+        <h1 class="title-box">
+          <span class="logo-bean">About us</span><br />
+          <span class="title">with</span> <span class="logo-coffee">FRESH</span>
+          <span class="title">beans</span>
         </h1>
       </div>
     </header>
     <main>
       <section class="section-container background-brown">
         <div class="content max-width color-light">
-          <h3>Section 1</h3>
-          <h4>Some description</h4>
+          <h3 class="section-h3">The CoffeeBean Story</h3>
+          <h4 class="section-h4">
+            At CoffeeBean, we are passionate about delivering the finest coffee
+            experience to our customers. Our journey began in a small coffee
+            roastery, where our founder, John Smith, dedicated himself to
+            mastering the art of coffee roasting. With unwavering commitment and
+            a love for exceptional coffee, we have grown into a renowned coffee
+            brand that prides itself on the finest coffee beans, expert
+            craftsmanship, and unmatched flavors.
+          </h4>
         </div>
       </section>
 
       <section class="section-container">
         <div class="max-width content-split">
-          <div class="content-image"></div>
-          <div class="content-text text-center">
-            <h3>Text</h3>
-            <p>Some description</p>
+          <div class="content-image max-width img-6">
+            <img src="/assets/image/photo-1604665772394-c5522c81e00b.avif" />
+          </div>
+          <div class="content-text-column text-center">
+            <h3 class="section-h3">Our Mission</h3>
+            <p>
+              Our mission at CoffeeBean is to connect people with the pure joy
+              of coffee. We believe that every coffee bean has a story to tell,
+              and we meticulously roast and blend our beans to create unique and
+              memorable flavors. We are dedicated to serving our community,
+              fostering sustainability, and sharing our passion for coffee with
+              coffee enthusiasts around the world.
+            </p>
           </div>
         </div>
       </section>
 
       <section class="section-container background-accent">
         <div class="content max-width color-light">
-          <h3>Section 2</h3>
-          <h4>text</h4>
-          <p>some description</p>
+          <h3 class="section-h3">Our Commitment to Quality</h3>
+          <h4 class="section-h4">From Bean to Cup</h4>
+          <p>
+            At CoffeeBean, quality is at the heart of everything we do. We
+            source the finest coffee beans from ethical and sustainable farms
+            around the world. Our skilled team of roasters brings out the best
+            flavors in every batch, ensuring a smooth and delightful coffee
+            experience with every sip. We take pride in delivering fresh and
+            perfectly roasted coffee to our customers, ensuring that they
+            experience the true essence of specialty coffee at its best.
+          </p>
         </div>
       </section>
     </main>
@@ -93,5 +126,8 @@
         </ul>
       </div>
     </footer>
+    <div class="chat-wrapper">
+      <span class="chat color-light">contact_support</span>
+    </div>
   </body>
 </html>

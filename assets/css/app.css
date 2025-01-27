@@ -6,10 +6,4 @@
 @import url(./include/background.css);
 @import url(./include/html.css);
 @import url(./include/footer.css);
-
-.title {
-    font-family: "Montserrat", sans-serif;
-    color: #2d5013;
-    font-weight: 500;
-  }
-
+@import url(./include/image.css);

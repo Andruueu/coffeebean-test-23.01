@@ -1,4 +1,24 @@
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
+}
+
+.chat {
+  font-family: "Material Symbols Outlined";
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.chat-wrapper {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  width: 50px;
+  right: 20px;
+  z-index: 99;
+  background-color: rgb(6, 34, 112);
 }

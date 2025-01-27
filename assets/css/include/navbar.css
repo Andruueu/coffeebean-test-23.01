@@ -1,31 +1,33 @@
-/* Navbar */
+/* navbar */
 
-.navbar-wraper {
-  padding: 10px;
+.navbar-wraper{
+  padding: 10px 0px;
+  position: sticky;
+  top: 0;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  background-color: #AFB686;
-  padding: 15px 50px;
-  border-radius: 20px;
-  box-shadow: 2px 4px 6px rgba(88, 88, 88, 0.1);
+  justify-content: space-between !important;
+  background-color: #afb686 !important;
+  padding: 10px 20px !important;
+  border-radius: 20px !important;
+  box-shadow: 2px 4px 6px rgba(88, 88, 88, 0.1) !important;
+  margin: 0% 20% !important;
 }
 
 .navbar-menu {
   display: flex;
   gap: 10px;
+  margin-bottom: 0px !important;
 }
 
 .navbar-menu-items {
   border: 1px rgba(231, 229, 229, 0.555);
   padding: 4px 8px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(34, 58, 58);
+  font-family: Oswald Extralight;
+  color: rgb(21, 39, 39);
 }
 
 .navbar-menu-items:hover {
@@ -35,17 +37,19 @@
 }
 
 .logo-coffee {
-  font-family: "Montserrat", sans-serif;
+  font-family: Oswald Extralight;
   font-weight: 700;
   color: #5f4e32;
 }
 
 .logo-bean {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(34, 58, 58);
+  font-family: Oswald Extralight;
+  color: rgb(14, 102, 102);
+  font-weight: 400;
 }
 
-.logo{
-  background-color: #AFB686;
+.logo {
+  background-color: #afb686;
   border: none;
+  align-content: center;
 }

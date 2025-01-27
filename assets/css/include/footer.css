@@ -1,7 +1,9 @@
 .footer {
-  padding: 20px 5%;
+  padding: 20px 9%;
   background-color: darkslategray;
-  font-family: "Roboto", sans-serif;
+  font-family: Oswald Extralight;
+  display: flex;
+  flex-direction: column;
 }
 .p-copyright {
   font-size: 12px;
@@ -31,6 +33,24 @@
 .body-footer {
   display: flex;
   flex-direction: column;
-  min-height:100vh;
+  min-height: 100vh;
   margin: 0;
+}
+
+.ul-footer {
+  padding-left: 0;
+}
+
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(13, 160, 123);
+  cursor: pointer;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
