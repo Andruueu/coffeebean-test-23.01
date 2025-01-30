@@ -12,7 +12,7 @@
   background-image:url(/assets/image/herobanner.avif);
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:top;
   display: flex;
-  padding: 350px;
+  height: 100vh;
 }
