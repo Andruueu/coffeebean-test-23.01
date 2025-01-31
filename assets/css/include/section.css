@@ -14,7 +14,6 @@
   display: flex;
   gap: 40px;
   flex-direction: column;
-  padding: 40px 0;
 }
 
 @media (min-width: 576px) {
@@ -62,8 +61,7 @@
 .section-h4 {
   font-size: 22px;
   font-family: Oswald Extralight;
-  display: flex;
-  max-width: 50%;
+  line-height:30px;
 }
 
 .section-1 {
